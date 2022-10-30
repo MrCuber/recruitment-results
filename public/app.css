@@ -1,5 +1,62 @@
 /* Here goes the common css for all the pages */
 
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
 body {
     background-color: aquamarine;
+}
+
+.nav-link {
+    margin: 14px 40px;
+    padding: 14px 40px;
+    border: 2px solid #ff0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    animation-name: nav-animation;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #303036;
+    background-color: #ff0;
+    box-shadow: 0 0 75px 1px #ff0;
+}
+
+.nav-link:nth-child(2) {
+    filter: hue-rotate(90deg);
+    animation-delay: 0.75s;
+}
+
+.nav-link:nth-child(3) {
+    filter: hue-rotate(180deg);
+}
+
+.nav-link:nth-child(4) {
+    filter: hue-rotate(270deg);
+    animation-delay: 0.75s;
+}
+
+.active {
+    background-color: #ff0;
+    color: #303036 !important;
+}
+
+@keyframes nav-animation {
+    0% {
+        border-color: #ff0;
+    }
+    50% {
+        border-color: #f00;;
+        }
+    100% {
+        border-color: #ff0;
+    }
 }

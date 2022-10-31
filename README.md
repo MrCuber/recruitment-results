@@ -1,5 +1,7 @@
 # Recruitment results webpage
 
+# Current site: <a href='https://recruitment-results.herokuapp.com/'>https://recruitment-results.herokuapp.com/</a>
+
 <details>
 <summary> <strong>Pull requests</strong> </summary>
 
@@ -149,4 +151,6 @@ node index.js
 ```
 http://localhost:3000/
 ```
-</details>
+8. In the views folder, consider the files with .ejs extension as html files and editing them will make cahnges in the content
+9. For styles, use the css file in the public folder
+     </details>

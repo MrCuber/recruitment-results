@@ -1,13 +1,15 @@
 /* Here goes the common css for all the pages */
 
+
+body {
+    
+  background: linear-gradient(165deg, black 30%, darkblue 200%);
+}
+
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-
-body {
-    background-color: aquamarine;
-}
 
 .nav-link {
     margin: 14px 40px;
